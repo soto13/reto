@@ -13,6 +13,7 @@
   display: inline-block;
   border-radius: 5px;
   padding: 1em;
+  text-decoration: none;
 }
 
 /* before menu */
@@ -176,12 +177,33 @@
   display: inline-block;
 }
 
+/* MAIN MORE */
+
+.main__more {
+  background: red;
+  margin:0 auto 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+/* boton */
+
+.main__more__button {
+  color: rgb(113, 113, 113);
+}
+.main__more__button:hover {
+  background-color: rgb(61, 79, 137);
+  color: #ffffff;
+}
+
 /* FOOTER */
 
 .footer {
   display: inline-block;
   position: absolute;
   width:100%;
+  margin:0 auto 0 auto;
+  text-align: center;
 }
 
 /* banner social webs */
@@ -228,13 +250,14 @@ footer__social__link {
 
 .footer__copyright {
   padding: 0px;
-  background: rgb(70, 69, 69);;
-  position:absolute;
-  width:100%;
-  display: inline-block;
+  background: rgb(70, 69, 69);
   color: #ffffff;
   font-size: 0.8em;
   text-align: center;
+  width: 100%;
+  height: 4.3em;
+  display: flex;
+  justify-content: center;
 }
 
 /* inicia menu */
@@ -242,7 +265,9 @@ footer__social__link {
 .footer__menu {
   line-height: 40px;
   list-style: none;
-  width: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__menu .footer__menu__ul {
@@ -255,11 +280,10 @@ footer__social__link {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .footer__menu .footer__menu__ul .footer__menu__item .footer__menu__link {
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -274,8 +298,10 @@ footer__menu__link {
 /* copyright */
 
 .footer__copyright__soto {
+  margin:0 auto 0 auto;
+  text-align: center;
   line-height: 60px;
-  width: auto;
-  display: inline-block;
+  width: 10%;
+  display: flex;
 }
 
