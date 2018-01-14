@@ -513,3 +513,39 @@ footer__menu__link {
   display: flex;
 }
 
+@media only screen and (max-width: 500px) {
+  .footer__social {
+    height: auto;
+  }
+
+  .footer__social__item {
+    display: inline;
+    padding-left: 0;
+  }
+
+  .main__more__info {
+    margin-top: 32%;
+  }
+
+  .main__contact__title {
+    line-height: 125px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .main__contact__button {
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__copyright {
+    display: inline-table;
+    justify-content: unset;
+  }
+}
+
+
